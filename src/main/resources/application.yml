@@ -6,10 +6,10 @@ spring:
     password: ${RDS_PASSWORD}
 
   jpa:
-    open-in-view: false
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     properties:
       hibernate:
         format_sql: ture
     defer-datasource-initialization: true
+    open-in-view: false
