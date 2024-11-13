@@ -24,4 +24,5 @@ public class UserController {
         UserResponseDto userInfo = userService.getUser(userId);
         return userInfo;
     }
+
 }
