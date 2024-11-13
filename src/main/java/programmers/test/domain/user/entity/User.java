@@ -27,4 +27,5 @@ public class User {
         this.nickname = nickname;
         this.age = age;
     }
+
 }
